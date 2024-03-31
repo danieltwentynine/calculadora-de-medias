@@ -77,6 +77,6 @@ function calcMedia() {
 function mediaFinal() {
     const media = calcMedia()
 
-    document.getElementById('media-final').innerHTML = media
+    document.getElementById('media-final').innerHTML = media.toFixed(2)
     document.getElementById('resultado-final').innerHTML = media >= notaMin ? spanAprovado : spanReprovado
 }
