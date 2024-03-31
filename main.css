@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #2C2C2C;
+}
+
+.container {
+    display: block;
+    margin: 100px auto;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+h1 img {
+    height: 40px;
+    padding-right: 20px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form input {
+    margin-right: 15px;
+    border-radius: 8px;
+    height: 26px;
+    border: none;
+    padding: 8px;
+}
+
+form input:hover {
+    border: 1px solid black;
+}
+
+form button {
+    color: black;
+    background-color: #6BFF52;
+    border-radius: 8px;
+    height: 26px;
+    width: 77px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    border: 1px solid black;
+}
+
+table {
+    display: inline-block;
+    margin-top: 64px;
+}
+
+table th{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 16px;
+    font-weight: normal;
+}
+
+table tbody td{
+    color: white;
+    text-align: center;
+    padding: 16px;
+    border-bottom: 1px solid rgb(91, 91, 91);
+}
+
+table tbody td img {
+    height: 20px;
+}
+
+table tfoot td {
+    color: white;
+    padding: 16px;
+}
+
+table .result {
+    padding: 8px;
+    color: #FFFF;
+}
+
+.aprovado {
+    color: #6BFF52;
+}
+
+.reprovado {
+    color: #FF4B4B;
+}

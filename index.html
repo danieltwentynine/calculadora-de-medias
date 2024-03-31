@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link href="./images/calcico.png" rel="icon"></link>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">
+                
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <img src="./images/logo.png" alt="Logo Escola">Calculadora de Médias
+        </h1>
+        <form id="form">
+            <input type="text" placeholder="Nome da atividade" required id="campo-atividade">
+            <input type="number" placeholder="Nota" min="0" max="10" required id="campo-nota" >
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome da Atividade</th>
+                    <th>Nota</th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><b>Nota Média</b></td>
+                    <td id="media-final"></td>
+                    <td id="resultado-final"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
